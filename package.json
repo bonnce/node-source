@@ -1,0 +1,25 @@
+{
+  "name": "node-source",
+  "version": "1.0.0",
+  "description": "simple service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonnce/node-source.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "bonnce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bonnce/node-source/issues"
+  },
+  "homepage": "https://github.com/bonnce/node-source#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
