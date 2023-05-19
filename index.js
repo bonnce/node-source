@@ -8,5 +8,5 @@ app.get('/',(req_,res)=>{
 })
 
 app.listen(port, () => {
-    console.log(`Exampl on port ${port}`)
+    console.log(`Example on port ${port}`)
 })
