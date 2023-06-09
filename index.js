@@ -1,9 +1,10 @@
 const express = require('express')
 
 const app = express()
-const port = 3500
+const port = 8889
 
-app.get('/',(req_,res)=>{
+app.get('/',(req,res)=>{
+    console.log(`recibido: ${req}`)
     res.send('Hellooo world!!')
 })
 
