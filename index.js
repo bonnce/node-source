@@ -5,9 +5,9 @@ const port = 8889
 
 app.get('/',(req,res)=>{
     console.log(`recibido: ${req}`)
-    res.send('Hellooo world!!')
+    res.send('Hello world!!')
 })
 
 app.listen(port, () => {
-    console.log(`Listesing on port ${port}`)
+    console.log(`Listen on port ${port}`)
 })
